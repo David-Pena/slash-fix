@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "PathFixer",
-      fileName: (format) => `path-fixer.${format}.js`,
+      name: "SlashFix",
+      fileName: (format) => `slash-fix.${format}.js`,
       formats: ["es", "umd"],
     },
     rollupOptions: {

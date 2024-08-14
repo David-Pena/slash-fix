@@ -1,12 +1,12 @@
 {
-  "name": "path-fixer",
+  "name": "slash-fix",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "description": "A CLI tool that automatically normalizes file paths by converting backslashes to forward slashes and copies the fixed path to your clipboard.",
   "author": "Unans___",
   "license": "MIT",
-  "repository": "https://github.com/David-Pena/path-fixer",
+  "repository": "https://github.com/David-Pena/slash-fix",
   "keywords": [
     "cli",
     "code",
@@ -14,9 +14,9 @@
     "backslashes",
     "forward-slashes"
   ],
-  "main": "dist/path-fixer.es.js",
+  "main": "dist/slash-fix.es.js",
   "bin": {
-    "path-fixer": "dist/cli.js"
+    "slash-fix": "dist/cli.js"
   },
   "scripts": {
     "build": "vite build && cp ./src/cli.js ./dist",
@@ -24,7 +24,7 @@
     "test": "vitest run"
   },
   "bugs": {
-    "url": "https://github.com/David-Pena/path-fixer/issues"
+    "url": "https://github.com/David-Pena/slash-fix/issues"
   },
   "dependencies": {
     "clipboardy": "^4.0.0",
@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/node": "^22.2.0",
     "@types/yargs": "^17.0.33",
+    "execa": "^9.3.1",
     "typescript": "^5.5.4",
     "vite": "^5.0.0",
     "vitest": "^2.0.5"
