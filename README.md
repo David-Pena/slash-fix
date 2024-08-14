@@ -1,4 +1,4 @@
-# Path Fixer (WIP)
+# Slash Fix (WIP)
 
 A CLI tool that automatically normalizes file paths by converting backslashes to forward slashes and copies the fixed path to your clipboard.
 
@@ -27,4 +27,4 @@ This tool takes care of that. That's it 👌
 
 ## 🤝 How to contribute?
 
-See [CONTRIBUTING.md](https://github.com/David-Pena/path-fixer/blob/main/CONTRIBUTING.md) file.
+See [CONTRIBUTING.md](https://github.com/David-Pena/slash-fix/blob/main/CONTRIBUTING.md) file.
