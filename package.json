@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "vite build && cp ./src/cli.js ./dist",
-    "normalize": "node ./dist/cli.js normalize",
+    "fixer": "node ./dist/cli.js fixer",
     "test": "vitest run"
   },
   "bugs": {

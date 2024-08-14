@@ -1,10 +1,10 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
-import { normalize } from "./normalizer";
+import { normalize } from "./fixer";
 
 yargs(hideBin(process.argv))
   .command(
-    "normalize [path]",
+    "fixer [path]",
     "Normalize file paths",
     (yargs) => {
       return yargs
