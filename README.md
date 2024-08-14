@@ -12,7 +12,7 @@ Soon...
 
 ## 📊 Example Output
 
-Soon...
+![Output Image](./screenshot-path-fixer.png)
 
 ## 🧩 Use Cases
 
