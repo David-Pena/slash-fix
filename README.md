@@ -4,11 +4,25 @@ A CLI tool that automatically normalizes file paths by converting backslashes to
 
 ## ⬇️ Installation
 
-Soon...
+```bash
+# Using npm
+npm install slash-fix -D
+
+# Using pnpm
+pnpm add slash-fix -D
+
+# Using yarn
+yarn add slash-fix -D
+```
 
 ## ⚙️ Usage
 
-Soon...
+> [!IMPORTANT]
+> The given path MUST be inside quotes ONLY if you are using `bash`
+
+```bash
+npx slash-fix fixer "path\to\some\file"
+```
 
 ## 📊 Example Output
 
