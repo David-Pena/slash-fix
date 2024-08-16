@@ -1,4 +1,4 @@
-# Slash Fix (WIP)
+# Slash Fix
 
 A CLI tool that automatically normalizes file paths by converting backslashes to forward slashes and copies the fixed path to your clipboard.
 
