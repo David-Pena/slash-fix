@@ -4,15 +4,10 @@ A CLI tool that automatically normalizes file paths by converting backslashes to
 
 ## ⬇️ Installation
 
+This tool aims to be useful globally, not associated with a specific project. So I recommend installing it with `-g` flag
+
 ```bash
-# Using npm
-npm install slash-fix -D
-
-# Using pnpm
-pnpm add slash-fix -D
-
-# Using yarn
-yarn add slash-fix -D
+npm install -g slash-fix
 ```
 
 ## ⚙️ Usage
@@ -26,7 +21,7 @@ npx slash-fix fixer "path\to\some\file"
 
 ## 📊 Example Output
 
-![Output Image](./screenshot-slash-fix.png)
+![Output Image](./src/assets/screenshot-output.png)
 
 ## 🧩 Use Cases
 
